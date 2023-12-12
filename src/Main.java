@@ -10,7 +10,7 @@ strName = Arrays.stream ( strName ).distinct ().toArray (String[]::new);
     System.out.println (  "Массив после удаления дубликатов" + Arrays.toString ( strName ));
   }
 }
-}
+
 
 
 
